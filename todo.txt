@@ -9,3 +9,5 @@ todo list
 4. new Branch 
 
 5. check my login status
+
+6. change user name 
