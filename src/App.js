@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Clock from './components/Clock'
+// import CustomButton from './components/buttonClick';
+// import FlavorForm from './components/flavourForm';
+// import NameForm from './components/NameForm';
+import FilterableProductsTable from './components/FilterProducts';
+import Exam from './Hook/exam'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        THis is a App for testing...
       </header>
+      <Clock/>
+      {/* <CustomButton/>
+      <FlavorForm/>
+      <NameForm/> */}
+      {/* <FilterableProductsTable/> */}
+      <Exam/>
     </div>
   );
 }
